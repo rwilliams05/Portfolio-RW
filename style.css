@@ -5,7 +5,7 @@
 }
 
 :root {
-  /* declare a variable with `--` syntax */
+  /* sets colors for page */
   --background: #181517;
  
   --accent: #b9c6ae;
@@ -14,11 +14,16 @@ body
 { 
   background: var(--background); 
   color: var(accent);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Rajdhani', sans-serif;
   margin: 0;
 }
+ .name {
+   font-weight:bold;
+   font-size:xx-large;
+ }
 
-main {
+ 
+.projectswrap {
   /* Turns this element into a flexbox */
   display: flex;
   /* Forces elements to the next line if they don't fit */
@@ -41,6 +46,7 @@ main {
       padding: 10px; 
     }
     h2 {
+      margin-left: 20px;
       display: block;
       text-align: left;
 
@@ -48,19 +54,19 @@ main {
 
   #aboutme 
   img {
-    height: 150px;
-    padding: 5;
-    border: 5px;
+    height: 300px;
+    padding: 20;
+    border: 10px;
     border-color: gray;
     border-style: solid;
-    border-radius: 5px;
-    margin: 20px;
-    float: left;
+    border-radius: 10px;
+    margin: 20px 20px 20px 100px;
+     float: left;
     }
   
   p { 
     display: inline;
-    margin: bottom 50px;
+    margin: bottom 75px;
     font-size: large;
   }
 .card {
